@@ -1,3 +1,11 @@
+<?php
+// SDK de Mercado Pago
+require __DIR__ .  '/vendor/autoload.php';
+// Agrega credenciales
+MercadoPago\SDK::setAccessToken('APP_USR-2572771298846850-120119-a50dbddca35ac9b7e15118d47
+b111b5a-681067803');
+?>
+
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
